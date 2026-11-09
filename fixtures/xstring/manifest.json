@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "files": {
+    "probe.xlsx": {
+      "sha256": "00cab2ddf178ef7adef2bf7925ed06d4c87b46f2d032664a1d334050a2ab37d7",
+      "bytes": 1951
+    },
+    "probe.csv": {
+      "sha256": "2d6cef07a2ff7d1aac7eb26e362e5a43bafda0ea10a8745689a3a083047f4047",
+      "bytes": 236
+    },
+    "report.json": {
+      "sha256": "4a1d800a6062508b829b558c197b2c44e49a06dc5424ac233ef18730fd3160d9",
+      "bytes": 4834
+    }
+  }
+}

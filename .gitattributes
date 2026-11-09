@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.xlsx -text
+*.zip -text
+fixtures/xstring/*.csv -text

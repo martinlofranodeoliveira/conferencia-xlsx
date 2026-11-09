@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-09T02:21:31.463159+00:00",
+  "external_consumer_rerun": true,
+  "consumer": {
+    "name": "LibreOffice",
+    "version": "LibreOffice 26.2.6.3 620(Build:3)",
+    "arguments": [
+      "-env:UserInstallation=<exclusive temporary profile>",
+      "--headless",
+      "--convert-to",
+      "csv:Text - txt - csv (StarCalc):44,34,76,1",
+      "--outdir",
+      "<owned output>",
+      "probe.xlsx"
+    ],
+    "returncode": 0,
+    "profile": "exclusive temporary profile; removed after process exit"
+  },
+  "authorship": "XLSX mínimo original com texto em SST e inline; dados inteiramente sintéticos.",
+  "cases": [
+    {
+      "xml_runs": [
+        "x005F_"
+      ],
+      "shared_string_value": "x005F_",
+      "inline_string_value": "x005F_",
+      "codepoints": [
+        "U+0078",
+        "U+0030",
+        "U+0030",
+        "U+0035",
+        "U+0046",
+        "U+005F"
+      ]
+    },
+    {
+      "xml_runs": [
+        "_x005F_"
+      ],
+      "shared_string_value": "_",
+      "inline_string_value": "_",
+      "codepoints": [
+        "U+005F"
+      ]
+    },
+    {
+      "xml_runs": [
+        "_x0041_"
+      ],
+      "shared_string_value": "A",
+      "inline_string_value": "A",
+      "codepoints": [
+        "U+0041"
+      ]
+    },
+    {
+      "xml_runs": [
+        "_x005F_x0041_"
+      ],
+      "shared_string_value": "_x0041_",
+      "inline_string_value": "_x0041_",
+      "codepoints": [
+        "U+005F",
+        "U+0078",
+        "U+0030",
+        "U+0030",
+        "U+0034",
+        "U+0031",
+        "U+005F"
+      ]
+    },
+    {
+      "xml_runs": [
+        "_xD83D__xDE00_"
+      ],
+      "shared_string_value": "😀",
+      "inline_string_value": "😀",
+      "codepoints": [
+        "U+1F600"
+      ]
+    },
+    {
+      "xml_runs": [
+        "_x000A_"
+      ],
+      "shared_string_value": "\n",
+      "inline_string_value": "\n",
+      "codepoints": [
+        "U+000A"
+      ]
+    },
+    {
+      "xml_runs": [
+        "_x005F_x000A_"
+      ],
+      "shared_string_value": "_x000A_",
+      "inline_string_value": "_x000A_",
+      "codepoints": [
+        "U+005F",
+        "U+0078",
+        "U+0030",
+        "U+0030",
+        "U+0030",
+        "U+0041",
+        "U+005F"
+      ]
+    },
+    {
+      "xml_runs": [
+        "prefix_x005F_suffix"
+      ],
+      "shared_string_value": "prefix_suffix",
+      "inline_string_value": "prefix_suffix",
+      "codepoints": [
+        "U+0070",
+        "U+0072",
+        "U+0065",
+        "U+0066",
+        "U+0069",
+        "U+0078",
+        "U+005F",
+        "U+0073",
+        "U+0075",
+        "U+0066",
+        "U+0066",
+        "U+0069",
+        "U+0078"
+      ]
+    },
+    {
+      "xml_runs": [
+        "_x005f_x0041_"
+      ],
+      "shared_string_value": "_x0041_",
+      "inline_string_value": "_x0041_",
+      "codepoints": [
+        "U+005F",
+        "U+0078",
+        "U+0030",
+        "U+0030",
+        "U+0034",
+        "U+0031",
+        "U+005F"
+      ]
+    },
+    {
+      "xml_runs": [
+        "_x005F__x0041_"
+      ],
+      "shared_string_value": "_A",
+      "inline_string_value": "_A",
+      "codepoints": [
+        "U+005F",
+        "U+0041"
+      ]
+    },
+    {
+      "xml_runs": [
+        "_x000D_"
+      ],
+      "shared_string_value": "\r",
+      "inline_string_value": "\r",
+      "codepoints": [
+        "U+000D"
+      ]
+    },
+    {
+      "xml_runs": [
+        "before_x0041_after"
+      ],
+      "shared_string_value": "beforeAafter",
+      "inline_string_value": "beforeAafter",
+      "codepoints": [
+        "U+0062",
+        "U+0065",
+        "U+0066",
+        "U+006F",
+        "U+0072",
+        "U+0065",
+        "U+0041",
+        "U+0061",
+        "U+0066",
+        "U+0074",
+        "U+0065",
+        "U+0072"
+      ]
+    },
+    {
+      "xml_runs": [
+        "_x004",
+        "1_"
+      ],
+      "shared_string_value": "_x0041_",
+      "inline_string_value": "_x0041_",
+      "codepoints": [
+        "U+005F",
+        "U+0078",
+        "U+0030",
+        "U+0030",
+        "U+0034",
+        "U+0031",
+        "U+005F"
+      ]
+    },
+    {
+      "xml_runs": [
+        "_x000",
+        "D_"
+      ],
+      "shared_string_value": "_x000D_",
+      "inline_string_value": "_x000D_",
+      "codepoints": [
+        "U+005F",
+        "U+0078",
+        "U+0030",
+        "U+0030",
+        "U+0030",
+        "U+0044",
+        "U+005F"
+      ]
+    }
+  ],
+  "app_matches_consumer": true,
+  "input_unchanged": true,
+  "primary_sources": [
+    "https://learn.microsoft.com/en-us/openspecs/office_standards/ms-oe376/bd0aa042-434a-4ca7-b25f-4e1fd25a954d",
+    "https://help.libreoffice.org/latest/en-US/text/shared/guide/csv_params.html"
+  ],
+  "limitations": [
+    "Consumidor exercitado: LibreOffice, não Microsoft Excel.",
+    "Casos de texto específicos; não certifica todo o formato XLSX."
+  ]
+}

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling==1.33.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "conferencia-xlsx"
+version = "1.0.0"
+description = "Conferência local de conteúdo, fórmulas e estrutura selecionada de duas planilhas XLSX."
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Martin Lofrano / LOFRANO TECNOLOGIA"}]
+readme = "README.md"
+dependencies = ["openpyxl==3.1.5", "defusedxml==0.7.1"]
+
+[project.scripts]
+conferencia-xlsx = "conferencia_xlsx.cli:main"
+
+[project.urls]
+Homepage = "https://lofranotecnologia.com.br/"
+Repository = "https://github.com/martinlofranodeoliveira/conferencia-xlsx"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/conferencia_xlsx"]
+
+[tool.hatch.build.targets.sdist]
+include = ["/src", "/tests", "/tools", "/scripts", "/fixtures", "/docs", "/README.md", "/LICENSE", "/CONTRACT.md", "/pyproject.toml", "/.github", "/.gitignore", "/.gitattributes"]

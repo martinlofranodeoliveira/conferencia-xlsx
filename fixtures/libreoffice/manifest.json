@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "authorship": "Arquivos de exemplo originais, dados sintéticos; nenhum arquivo pessoal.",
+  "files": {
+    "fixtures/libreoffice/antes.fods": {
+      "bytes": 3430,
+      "sha256": "ddc54c4f3523f8ed55feed40de1fb8b3ec58ea5bdfab0d189046d6c2b43e0b90"
+    },
+    "fixtures/libreoffice/depois.fods": {
+      "bytes": 3474,
+      "sha256": "77a73df755d3f2707dd6bd5632067167e614e4f4f90b780217d4386489c18815"
+    },
+    "fixtures/libreoffice/sem-cache.xlsx": {
+      "bytes": 7777,
+      "sha256": "d9018ee87d9d3de2e121b070d30f17dee90e08c975e2aafe7d14d75efaeca46e"
+    },
+    "fixtures/libreoffice/report.json": {
+      "bytes": 6296,
+      "sha256": "844186708a87ef1e044d3201733f7e004f7a7b24b66677a4c67ce9bc8f8a8b59"
+    },
+    "src/conferencia_xlsx/samples/antes.xlsx": {
+      "bytes": 8072,
+      "sha256": "39d0411a1182dd587de0f035bc7935815373d1c4640191ea54a3f45913eed89e"
+    },
+    "src/conferencia_xlsx/samples/depois.xlsx": {
+      "bytes": 8085,
+      "sha256": "f903c0feccbe69b53cde7c93ad880ab59c1e46cde747e7969acbbdd6c392847a"
+    }
+  }
+}
