@@ -38,5 +38,6 @@ jobs:
           python-version: '3.12'
       - run: sudo apt-get update && sudo apt-get install -y --no-install-recommends libreoffice-calc
       - run: python -m pip install -e .
+      - run: mkdir -p local
       - run: python tools/libreoffice_rehearsal.py --output local/libreoffice-ci --libreoffice /usr/bin/libreoffice
       - run: python tools/xstring_rehearsal.py --output local/xstring-ci --libreoffice /usr/bin/libreoffice
